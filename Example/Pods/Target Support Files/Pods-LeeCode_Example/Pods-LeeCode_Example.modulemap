@@ -1,0 +1,6 @@
+framework module Pods_LeeCode_Example {
+  umbrella header "Pods-LeeCode_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

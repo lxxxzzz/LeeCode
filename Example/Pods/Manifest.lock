@@ -1,0 +1,16 @@
+PODS:
+  - LeeCode (0.1.0)
+
+DEPENDENCIES:
+  - LeeCode (from `../`)
+
+EXTERNAL SOURCES:
+  LeeCode:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LeeCode: 18a7d660ce256fb73899f6ad89a3d4c8a8d1c748
+
+PODFILE CHECKSUM: c650e33952ad48da98bbffdc9ea55d3437dc8d04
+
+COCOAPODS: 1.11.2

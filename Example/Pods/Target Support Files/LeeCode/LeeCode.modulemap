@@ -1,0 +1,6 @@
+framework module LeeCode {
+  umbrella header "LeeCode-umbrella.h"
+
+  export *
+  module * { export * }
+}

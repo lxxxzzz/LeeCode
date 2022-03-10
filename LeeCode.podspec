@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LeeCode'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LeeCode.'
+  s.summary          = '这是一个测试库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/Danny.li/LeeCode'
+主要用于测试Cocoapods，实则没什么卵用。
+                      DESC
+  s.homepage         = 'https://github.com/lxxxzzz/LeeCode'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Danny.li' => 'danny.li@gmsspace.com' }
-  s.source           = { :git => 'https://github.com/Danny.li/LeeCode.git', :tag => s.version.to_s }
+  s.author           = { 'Danny.li' => 'lxxxzzz@qq.com' }
+  s.source           = { :git => 'https://github.com/lxxxzzz/LeeCode.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'LeeCode/Classes/**/*'
+  s.source_files = 'LeeCode/Classes/*.{h,m}'
   
   # s.resource_bundles = {
   #   'LeeCode' => ['LeeCode/Assets/*.png']

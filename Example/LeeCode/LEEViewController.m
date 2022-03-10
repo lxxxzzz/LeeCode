@@ -7,8 +7,11 @@
 //
 
 #import "LEEViewController.h"
+#import <YXProxy.h>
 
 @interface LEEViewController ()
+
+@property (nonatomic, strong) NSTimer *timer;
 
 @end
 
@@ -17,7 +20,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:[YXProxy proxyWithTarget:self] selector:@selector(test) userInfo:nil repeats:YES];
+}
+
+- (void)test {
+    NSLog(@"----------------");
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,22 @@
+{
+  "name": "LeeCode",
+  "version": "0.1.0",
+  "summary": "A short description of LeeCode.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Danny.li/LeeCode",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Danny.li": "danny.li@gmsspace.com"
+  },
+  "source": {
+    "git": "https://github.com/Danny.li/LeeCode.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LeeCode/Classes/**/*"
+}
