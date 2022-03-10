@@ -1,6 +1,0 @@
-framework module YXIMKit {
-  umbrella header "YXIMKit.h"
-
-  export *
-  module * { export * }
-}
