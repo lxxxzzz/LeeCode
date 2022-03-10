@@ -22,7 +22,7 @@ pod 'LeeCode'
 
 ## Author
 
-Danny.li, danny.li@gmsspace.com
+Danny.li
 
 ## License
 
