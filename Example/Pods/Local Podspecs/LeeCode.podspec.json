@@ -1,22 +1,28 @@
 {
   "name": "LeeCode",
-  "version": "0.1.0",
-  "summary": "A short description of LeeCode.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Danny.li/LeeCode",
+  "version": "0.4.0",
+  "summary": "这是一个测试库",
+  "description": "主要用于测试Cocoapods。",
+  "homepage": "https://github.com/lxxxzzz/LeeCode",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Danny.li": "danny.li@gmsspace.com"
+    "Danny.li": "lxxxzzz@qq.com"
   },
   "source": {
-    "git": "https://github.com/Danny.li/LeeCode.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/lxxxzzz/LeeCode.git",
+    "tag": "0.4.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "LeeCode/Classes/**/*"
+  "source_files": "LeeCode/Classes/*.{h,m}",
+  "vendored_frameworks": "Framework/LeeCodeFramework.framework",
+  "dependencies": {
+    "LEEUITool": [
+
+    ]
+  }
 }

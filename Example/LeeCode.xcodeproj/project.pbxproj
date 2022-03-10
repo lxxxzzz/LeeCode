@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		123115FF1DF15ED6F95657E0 /* Pods_LeeCode_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B830C833D92B39CFF0291158 /* Pods_LeeCode_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,9 +20,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6DD5A23EA9F36ACCF85A26AB /* Pods_LeeCode_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4055004E5711BB3BEE3A1C86 /* Pods_LeeCode_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		AFEFF06345C211012C412D40 /* libPods-LeeCode_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 405892FBD323AE16010A6FBD /* libPods-LeeCode_Tests.a */; };
+		E960FE91A193A56AA4463BAB /* libPods-LeeCode_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0964EDA3D9340746034B748 /* libPods-LeeCode_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		01AA8C9A88E6DD7870D128B7 /* Pods-LeeCode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeCode_Tests.release.xcconfig"; path = "Target Support Files/Pods-LeeCode_Tests/Pods-LeeCode_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4055004E5711BB3BEE3A1C86 /* Pods_LeeCode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeeCode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		405892FBD323AE16010A6FBD /* libPods-LeeCode_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeeCode_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2EBD54E1A4A11839632F2A /* Pods-LeeCode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeCode_Example.debug.xcconfig"; path = "Target Support Files/Pods-LeeCode_Example/Pods-LeeCode_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LeeCode_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeCode_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,11 +62,11 @@
 		681EC4B605453D7B1C43BDE0 /* Pods-LeeCode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeCode_Example.release.xcconfig"; path = "Target Support Files/Pods-LeeCode_Example/Pods-LeeCode_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AEE9A710B235CD73EFB0010E /* LeeCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LeeCode.podspec; path = ../LeeCode.podspec; sourceTree = "<group>"; };
-		B830C833D92B39CFF0291158 /* Pods_LeeCode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeeCode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE9A710B235CD73EFB0010E /* LeeCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LeeCode.podspec; path = ../LeeCode.podspec; sourceTree = "<group>"; };
+		E0964EDA3D9340746034B748 /* libPods-LeeCode_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeeCode_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E503E5D00145CDED18855237 /* Pods-LeeCode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeCode_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LeeCode_Tests/Pods-LeeCode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EB6289B80A65348454A77EC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FA3315FEC9BD80BF0A22EEDC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EB6289B80A65348454A77EC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FA3315FEC9BD80BF0A22EEDC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				6DD5A23EA9F36ACCF85A26AB /* Pods_LeeCode_Example.framework in Frameworks */,
+				E960FE91A193A56AA4463BAB /* libPods-LeeCode_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				123115FF1DF15ED6F95657E0 /* Pods_LeeCode_Tests.framework in Frameworks */,
+				AFEFF06345C211012C412D40 /* libPods-LeeCode_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,6 @@
 				E503E5D00145CDED18855237 /* Pods-LeeCode_Tests.debug.xcconfig */,
 				01AA8C9A88E6DD7870D128B7 /* Pods-LeeCode_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -135,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				4055004E5711BB3BEE3A1C86 /* Pods_LeeCode_Example.framework */,
-				B830C833D92B39CFF0291158 /* Pods_LeeCode_Tests.framework */,
+				E0964EDA3D9340746034B748 /* libPods-LeeCode_Example.a */,
+				405892FBD323AE16010A6FBD /* libPods-LeeCode_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				06C0FFE36C8431BD22949530 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +256,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,24 +294,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		06C0FFE36C8431BD22949530 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LeeCode_Example/Pods-LeeCode_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LeeCode/LeeCode.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LeeCode.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeeCode_Example/Pods-LeeCode_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5E92E60B7950D2728C5408BF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -497,6 +478,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeeCode/LeeCode-Prefix.pch";
 				INFOPLIST_FILE = "LeeCode/LeeCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +495,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeeCode/LeeCode-Prefix.pch";
 				INFOPLIST_FILE = "LeeCode/LeeCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
