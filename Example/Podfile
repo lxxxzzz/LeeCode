@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LeeCode_Example' do
+  pod 'LeeCode', :path => '../'
+
+  target 'LeeCode_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
